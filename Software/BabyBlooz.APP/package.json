@@ -1,0 +1,60 @@
+{
+  "name": "BabyBlooz",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.4",
+    "@react-native-community/async-storage": "^1.4.1",
+    "@types/react-native-material-ui": "^1.31.1",
+    "@types/react-native-svg-charts": "^5.0.1",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-camera": "^2.9.0",
+    "react-native-chart-kit": "^2.6.1",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-iot-wifi": "^1.0.0",
+    "react-native-material-ui": "^1.30.1",
+    "react-native-navigation": "^2.20.0",
+    "react-native-paper": "^2.16.0",
+    "react-native-qrcode-scanner": "^1.2.1",
+    "react-native-smartconfig": "^0.2.2",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-svg": "^9.4.0",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-wifi": "^1.0.1",
+    "react-native-wifi-p2p": "^0.6.6",
+    "react-navigation": "^3.11.0",
+    "yarn": "^1.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/runtime": "7.4.4",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.17",
+    "@types/react-native": "^0.57.60",
+    "@types/react-navigation": "^3.0.7",
+    "@types/react-redux": "^7.0.9",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-native-android-wifi": "0.0.41",
+    "react-native-camera": "^2.11.0",
+    "react-native-camera-kit": "^8.0.0",
+    "react-native-typescript-transformer": "^1.2.12",
+    "react-test-renderer": "16.8.3",
+    "ts-jest": "^24.0.2",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

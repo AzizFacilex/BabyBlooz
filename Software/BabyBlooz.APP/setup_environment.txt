@@ -1,0 +1,27 @@
+1-Install android studio from official website
+2-Launch Studio and follow instructions to install android Sdk
+3-Install nodejs using this command(without quotes):
+    "sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - &&sudo apt-get install -y nodejs"
+4-Install react-native-cli globally using this command(without quotes):
+    "sudo npm install -g react-native-cli"
+(If you encounter any problem here, run this "sudo rm -rf $HOME/.npm/ && sudo npm install -g react-native-cli")
+5-Install missing react  dependencies using this command
+    "sudo react-native init test && sudo rm -rf test/"
+6- (If everything goes well) Open Android Studio
+7- from tabs menu go to tools/avdmanager/create new virtual machine
+8- Choose Pixel 3 Xl(or what ever) and go next
+9- In this step choose Nougat with API Level 25(Important!!) and go next
+10- Press finsh and let it download the Image
+11- In Android studio Go to tools/avd manage and select the play button of the created device to start it, wait for full boot
+12- Open terminal and type sudo nano /etc/profile.d/android.sh
+13- Copy and paste the following without quotes
+  "export ANDROID_HOME=${HOME}/Android/Sdk
+   export PATH=${PATH}:${ANDROID_HOME}/emulator
+   export PATH=${PATH}:${ANDROID_HOME}/tools
+   export PATH=${PATH}:${ANDROID_HOME}/tools/bin
+   export PATH=${PATH}:${ANDROID_HOME}/platform-tools"
+14- set permission using "sudo chmod +x /etc/profile.d/android.sh"
+14- log out from the session (ctrl+delete) and login again
+15- repeat step 11
+16- (If Everything goes well) Clone the Repo from gitlab and go to app folder under Software/BabyBlooz
+17- in terminal type "react-native run-android". First build takes long time
