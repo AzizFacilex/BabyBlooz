@@ -31,7 +31,7 @@
     "react-native-wifi": "^1.0.1",
     "react-native-wifi-p2p": "^0.6.6",
     "react-navigation": "^3.11.0",
-    "yarn": "^1.16.0"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "@babel/core": "7.4.4",
