@@ -31,3 +31,7 @@ In addition to real-time notifications, the system also records the baby's tempe
 Upon startup, the Arduino board creates a hotspot that can be detected by the Android application. The user can then enter their Wi-Fi network's SSID and password in the app, and the Arduino board will connect to the internet.
 
 The system monitors the baby's cry, movement, and wet diaper using the built-in detectors, and records temperature data using the temperature sensor. The data is then sent to the user's mobile phone via notifications. The user can also view the history statistics of the baby's temperature on a graph in the app.
+
+## License
+
+This project is licensed under the GNU General Public License v2.0 - see the LICENSE.md file for details.
